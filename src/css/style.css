@@ -1,0 +1,200 @@
+body
+{
+  
+  position: relative;
+  height: 100%;
+  background-color: #697480;
+}
+
+header
+{
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #364FC7;
+  padding: 20px;
+  color: #000;
+
+  border-bottom: #fff 1px solid;
+
+}
+.search
+{
+  background-color: #4e67e7;
+  padding: 50px;
+  border-bottom: #0f2fd3 solid 3px;
+}
+
+h2
+{
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+
+  color: #fff;
+
+  margin-bottom: 10px;
+  line-height: 15px;
+
+}
+
+p
+{
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px;
+  margin-top: 10px;
+  text-align: left;
+
+  color: #fff;
+
+}
+
+#search
+{
+  height: 40px;
+  width: 301px;
+  border: transparent;
+  background-color: #F5F5F5;
+  border-radius: 8px;
+  padding: 8px;
+
+}
+
+#btn__search
+{
+  background-color: #364FC7;
+  color: #fff;
+  padding: 15px;
+  border: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  opacity: 1;
+}
+  #btn__search:hover{
+    opacity: .8;
+  }
+
+
+
+/* START TABLE  */
+
+table
+{
+  top: 0;
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  color: #fff;
+  background-color: #697480;
+
+  /* border-bottom: #000 solid 3px; */
+  
+}
+
+th
+{
+  display: flex;
+  justify-content: center;
+
+  color: #fff;
+  background-color: #364FC7;
+  border:#E9ECEF solid 3px;
+
+  line-height: 100%;
+
+  padding: 20px;
+  width: 170px;
+}
+
+tr
+{
+  display: flex;
+  justify-content: center;
+  color: #000;
+  background-color: #F8F9FA;
+
+}
+tr:hover
+{
+  background-color: #1b2b7c;
+  color: #fff;
+}
+
+td
+{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 170px;
+
+  border:#E9ECEF solid 3px;
+}
+
+.btn__order
+{
+  padding: 10px;
+  background-color: #1b2b7c;
+  color: #fff;
+
+  padding: 10px 30px;
+
+  border: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  opacity: 1;
+}
+  .btn__order:hover{opacity: .8;}
+
+.arrow__down
+{
+  margin-left: 10px;
+  
+}
+
+.flags
+{
+  
+  margin-right: 10px;
+  width: 25px;
+  height: 15px;
+}
+
+.country
+{
+  justify-content: flex-start;
+  
+}
+
+
+
+#rich-dacan 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 200px;
+  
+  padding: 30px;
+
+  border-bottom: #000 solid 30px;
+  border-top: #000 solid 5px;
+  background-color: #fff;
+  color: #000;
+  
+  font-size: 2.5rem;
+}
+
+#rich-dacan:hover
+{
+  background-color: #364FC7;
+  color: #fff;
+}
+
