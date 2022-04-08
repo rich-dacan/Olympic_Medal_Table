@@ -45,7 +45,3 @@ Iniciar do zero seria a melhor forma, caso ainda não tenha começado, mas aqui 
 - Inicie pela desconstrução da sua classe, ou seja, quais são as suas características (atributos ou propriedades) e o que pode fazer (métodos ou funções).
 - Utilize Boas práticas que lhe foram passadas durante o módulo.
 - Quais serão suas funcionalidades e como elas irão interagir entre si e seus dados.
-
-## Entrega
-
-Faça o push do código para o seu repositório GitHub e implemente-o GitHub pages. No Canvas, por favor, envie sua url do GitHub Pages: (ex: https://nomerandomico.github.io/cartas-flexbox) e envie o link do seu repositório nos comentários. Seu projeto deverá ficar Internal.
