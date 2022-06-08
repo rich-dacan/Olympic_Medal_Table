@@ -19,6 +19,7 @@ header
   border-bottom: #fff 1px solid;
 
 }
+
 .search
 {
   background-color: #4e67e7;
@@ -92,10 +93,7 @@ table
   align-items: center;
   
   color: #fff;
-  background-color: #697480;
-
-  /* border-bottom: #000 solid 3px; */
-  
+  background-color: #697480;  
 }
 
 th
@@ -111,6 +109,10 @@ th
 
   padding: 20px;
   width: 170px;
+}
+
+.no__button {
+  align-items: center;
 }
 
 tr
@@ -139,6 +141,9 @@ td
 
 .btn__order
 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
   padding: 10px;
   background-color: #1b2b7c;
   color: #fff;
@@ -160,7 +165,6 @@ td
 
 .flags
 {
-  
   margin-right: 10px;
   width: 25px;
   height: 15px;
@@ -172,8 +176,6 @@ td
   
 }
 
-
-
 #rich-dacan 
 {
   display: flex;
@@ -184,12 +186,13 @@ td
   
   padding: 30px;
 
+  font-size: 2.5rem;
   border-bottom: #000 solid 30px;
   border-top: #000 solid 5px;
   background-color: #fff;
   color: #000;
   
-  font-size: 2.5rem;
+  transition: all ease-in .25s;
 }
 
 #rich-dacan:hover
